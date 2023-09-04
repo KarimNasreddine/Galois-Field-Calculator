@@ -1,0 +1,37 @@
+body {
+  background-color: #e9ebf0;
+  background: linear-gradient(to right, #3f51b5, #00aaff);
+  font-family: Helvetica, Arial;
+}
+
+.wrapper {
+  margin-top: 3em;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  padding: 30px;
+}
+
+@media only screen and (min-width: 1400px) {
+  .wrapper {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+  .wrapper {
+    width: 75%;
+  }
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding-top: 1em;
+}
+
+.MuiTypography-h6 {
+  padding-top: 1em;
+}
